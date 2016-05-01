@@ -14,7 +14,7 @@
 
 	function getDiff() {
 
-		var endDate = new Date("06/10/2016");
+		var endDate = new Date("05/06/2016");
 		var now = new Date();
 		var timeDiff = Math.abs(endDate.getTime() - now.getTime())/1000;
 		var diffDays = timeDiff / (3600 * 24);
